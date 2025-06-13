@@ -433,7 +433,7 @@ digraph mat {
 			jlemerle	[label = "LEMERLE\nJean"];
 			abrothier	[label = "BROTHIER\nAxel"];
 			iyannic		[label = "YANNIC\nIsaura"];
-			sklis		[label = "KLIS\nSamir"];
+			sklis		[label = <KLIS<BR/>Samir<BR/><I>L'Agri</I>> fillcolor="yellow"];
 			ggispert	[label = <GISPERT<BR/>Guillaume<BR/><I>L'Instru (2023)</I>> fillcolor="yellow"];
 			apodolak	[label = "PODOLAK\nAgathe"];
 			mehdi		[label = "Mehdi"];
@@ -499,6 +499,7 @@ digraph mat {
 			sboukal		[label = "BOUKAL\nSami"];
 			jturlin		[label = <TURLIN<BR/>Julie<BR/><I>BDA</I>> fillcolor="yellow" penwidth=4 color="orange"];
 			mdegroote	[label = <DEGROOTE<BR/>Maxime<BR/>> penwidth=4 color="orange"];	
+			jgagner		[label = "GAGNER\nJulia"];
 		}
 			sduchesne->smuther;
 			qberthod->agengembre;
@@ -508,6 +509,7 @@ digraph mat {
 			opellaumail->sboukal;
 			jthierion->jturlin;
 			ldelahaye->mdegroote;
+			sklis->jgagner;
 
 
 	}
