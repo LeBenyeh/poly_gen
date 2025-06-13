@@ -397,7 +397,7 @@ digraph se {
 				apillot 	[label = "PILLOT\nAnthony"];
 				ahoudusse  [label = "HOUDUSSE\nAgathe"];
 				tduwez	   	[label = "DUWEZ\nThibault"];
-				lghazali	[label = <GHAZAHLI<BR/>Lilia<BR/><I>Le Studio</I>> fillcolor="yellow"];
+				lghazali	[label = <GHAZALI<BR/>Lilia<BR/><I>Le Studio</I>> fillcolor="yellow"];
 				tmerien	   	[label = "MERIEN\nTom"];
 				rduhamel  	[label = <DUHAMEL<BR/>Raphaël<BR/><I>DDPS</I>> fillcolor="#f05050" penwidth=4 color="yellow"];
 				tpaumas	   	[label = "PAUMAS\nThibaut"];

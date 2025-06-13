@@ -403,7 +403,7 @@ digraph gc {
 		mpayet [label = <PAYET<BR/>Mattéo<BR/><I>Respo Club</I>> fillcolor="#f05050" penwidth=4 color="orange"];
 		mblanche [label = "BLANCHET\nJMargot"];
 		bbessier [label =  <BESSIERE<BR/>Benoît<BR/><I>Inté Events</I>> fillcolor="#f05050" penwidth=4 color="orange"];
-		mberge [label = "BERGE\nMarianne"];
+		mberge [label = <BERGE<BR/>Marianne<BR/><I>Inté Events</I>> fillcolor="#f05050" penwidth=4 color="yellow"];
 		toliveau [label = "OLIVEAU\nThomas"];
 		mbotteld [label = <BOTTELDOORN<BR/>Matis<BR/><I>Inté Events</I>> fillcolor="#f05050" penwidth=4 color="orange"];
 		egenest [label =  <GENEST<BR/>Ethan<BR/><I>Gymnase</I>> fillcolor="yellow" penwidth=4 color="orange"];
@@ -420,7 +420,7 @@ digraph gc {
 	lfrenoi -> mblanche;
 	emazzoli -> mblanche [style = "dashed"];
 	tgondelle -> bbessier;
-	crault -> mberge;
+	crault -> mberge [penwidth=2 color = "#f05050"];
 	mtazi -> mbotteld;
 	tdeclimm -> egenest;
 	tfasquel -> acourtin;
@@ -509,7 +509,7 @@ digraph gc {
 		tclerc -> apetitfils [penwidth=2 color = "#f05050"];
         valentin -> dcocrelle;
 		vdegroote -> ecagnot;
-		lpocholl -> zloeb;
+		lpocholl -> zloeb [style = "dashed"];
 		{ rank = "same";//2027
 			epietin 	 [label = <PIETIN<BR/>Ethan<BR/><I>Humaniterre</I>> fillcolor="yellow"];
 			imajkrza  	[label = <MAJKRZAK<BR/>Inès<BR/><I>Communication</I>> fillcolor="#f05050" penwidth=4 color="yellow"];
