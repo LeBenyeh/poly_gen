@@ -109,11 +109,11 @@ digraph GGU {
 			ameliegra  [label = "GRANDMOTTET\nAmélie"];
 			laurawan   [label = "WANG\nLaura"];
 			clementmar [label = "MARIOT\nClément"];
-			loucandyce [label = "FERRAND\nLou-Candyce"];
+			loucandice [label = <FERRAND<BR/>Lou-Candice<BR/><I>Pompoms</I>> fillcolor="yellow"];
 			phillippela [label = "LARGUIER\nPhilippe"];
 			leobernae    [label = "BERNAERT\nLéo"];
-			ldebast  [label = "DEBAST\nLouison"];
-			azarktouni [label = "ZARKTOUNI\nAchraf"];
+			ldebast  	[label = "DEBAST\nLouison"];
+			azarktouni 	[label = "ZARKTOUNI\nAchraf"];
 
 		}
 			albinneu -> antoinesim [penwidth=2 color = "#f05050"];
@@ -131,7 +131,7 @@ digraph GGU {
 			lealachere -> ameliegra;
 			lealachere -> laurawan;
 			titouancheva -> clementmar;
-			titouancheva -> loucandyce;
+			titouancheva -> loucandice;
 			lukasalb -> phillippela;
         	lukasalb -> leobernae;
 		{ rank = "same";
@@ -154,7 +154,7 @@ digraph GGU {
 		ameliegra->vwijsman;
 		laurawan->lcoelho;
 		clementmar->mgabard;
-		loucandyce->mgeorges;
+		loucandice->mgeorges;
 		phillippela->azarktouni;
 		gauthierpl->azarktouni;
 		leobernae->egautier;

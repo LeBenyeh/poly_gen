@@ -381,6 +381,7 @@ digraph is {
 			acanal		[label = "CANAL\nAurélien"];
 			ebaranowski [label = "BARANOWSKI\nEléa"];
 			ableton 	[label = <BLETON<BR/>Artus<BR/><I>Respo Part/Goodies</I>> fillcolor="#f05050" penwidth=4 color="green"]
+			dlahanque 	[label = "LAHANQUE\nDamien"];
         }
 		vincentlemeur->rfush;
 		vincentlemeur->sgiraud;
@@ -414,8 +415,11 @@ digraph is {
 			oroche  	[label = <ROCHE<BR/>Olan<BR/><I>Respo Rezo</I>> fillcolor="#f05050" penwidth=4 color="yellow"];
 			alo 		[label = "LO\nAmy"];
 			lleane 		[label = "LABIS\nLéane"];
+			zlavielle	[label = <LAVIEILLE<BR/>Zoé<BR/><I>Polydance</I>> fillcolor="yellow"]
+			esurace		[label = "SURACE\nEhoarn"];
 				
 		}
+		dlahanque->esurace;
 		abonnefant->avandamme;
 		irouabah->xmuller;
 		remicleme->lleane;

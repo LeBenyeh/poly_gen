@@ -382,7 +382,7 @@ digraph meca {
 			aubinvairel [label = <VAIREL<BR/>Aubin<BR/><I>Respo Clubs</I>> fillcolor="#f05050" penwidth=4 color="pink"];
 			baptisterou [label = "ROUARD\nBaptiste"];
 			baptistevan [label = "VANDERMEERSCH\nBaptiste"];
-			basilemerie [label = "MERIEAU\nBasile"];
+			basilemerie [label = <MERIEAU<BR/>Basile> penwidth=4 color="blue"];
 			charliefass [label = "FASSENET\nCharlie"];
 			clementchw  [label = "CHWALIK\nClément"];
 			claracarp   [label = "CARPENTIER\nClara"];
@@ -405,7 +405,7 @@ digraph meca {
 			ninonrayn   [label = "RAYNAUD-SCHELL\nNinon"];
 			ornellaan   [label = <ANDRIANA<BR/>Ornella<BR/><I>Respo International</I>> fillcolor="#f05050" penwidth=4 color="blue"];
 			paulselli   [label = "SELLIER\nPaul"];
-			romainhoz   [label = "HORAZE\nRomain"];
+			romainhoz   [label = "HOZANNE\nRomain"];
 			simonclott  [label = <CLOTHES<BR/>Simon<BR/><I>Studio</I>> fillcolor="yellow"];
 			sofiadarb   [label = "DARBANE\nSofia"];
 			tevainuiha  [label = "HAMBLIN\nTevainui"];
@@ -484,13 +484,8 @@ digraph meca {
 			romainhoz -> bklein;
 			clovischar -> qsousa;
 			louannot -> lhanotel;
-<<<<<<< HEAD
-			ornellaan -> trobin;
-			mdevos -> maelb;
-=======
 			ornellaan -> trobin [penwidth=2 color = "#f05050"];
 			mdevos->maelb;
->>>>>>> origin/main
 			guilhemdbn->adebas;
 			clementchw->mkernec;
 			arthurdvl->lsabin [penwidth=2 color = "#f05050"];
@@ -510,6 +505,7 @@ digraph meca {
 			alexandreth->quentindec;
 			ninonrayn->adonval;
 			mmorel->mduclay;
+			basilemerie->ldelaby;
 		{ rank = same; //2027
 			erodilha    [label = "RODILHAT\nEmilie"];
 			cfreland    [label = <FRELAND<BR/>Cassandre<BR/><I>Partenariats/Goodies</I>>, fillcolor="#f05050", penwidth=4, color="yellow"];

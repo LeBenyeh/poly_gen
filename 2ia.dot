@@ -129,7 +129,7 @@ digraph iia {
 			jcratz		[label =<CRATZ<BR/>Justine<BR/><I>PULCE</I>> fillcolor="yellow"];
 			clalance	[label = "LALANE\nCandice"];
 			gsibille 	[label = "SIBILLE\nGuillaume"];
-			amoraux		[label = "MORAUX\nAnthoni"];
+			amoraux		[label = "MORAUX\nAnthony"];
 			dwavrin		[label = "WAVRIN\nDorian"];
 
 		}
