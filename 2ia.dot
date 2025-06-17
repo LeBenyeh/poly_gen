@@ -149,7 +149,7 @@ digraph iia {
 			icaron 			[label = <CARON<BR/>Iona<BR/>>  penwidth=4 color="orange"];
 			cdoucement 		[label = <DOUCEMENT<BR/>Coline<BR/>> penwidth=4 color="orange"];
 			nsantos			[label =<SANTOS<BR/>Nylan<BR/><I>Respo Comm</I>> fillcolor="#f05050" penwidth=4 color="yellow"];
- 			vyeme			[label =<YEME<BR/>Valentine<BR/><I>DDPS Respo Polyjam</I>> fillcolor="#f05050" penwidth=4 color="yellow"];
+ 			vyeme			[label =<YEME<BR/>Valentine<BR/><I>DDPS Respo Polyjam<BR/>Radio</I>> fillcolor="#f05050:yellow" penwidth=4 color="yellow"];
 		}
 		amoraux -> mpoissonet;
 		dwavrin -> mpoissonet [style=dashed];
