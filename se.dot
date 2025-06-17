@@ -404,7 +404,7 @@ digraph se {
 				mhamidouche	[label = "HAMIDOUCHE\nMilane"];
 				boberson  	[label = <OBERSON<BR/>Basil<BR/><I>Secrétaire</I>> fillcolor="#f05050" penwidth=4 color="Orange"];
 				mroy	   	[label = "ROY\nMax"];
-				esorais		[label = "SORAIS\nEric" penwidth=4 color="orange"];
+				esorais		[label = <SORAIS<BR/>Eric<BR/><I>PAF!</I>> fillcolor="yellow" penwidth=4 color="orange"];
 				cpayet	    [label = <PAYET<BR/>Cédric<BR/><I>Robotech</I>> fillcolor="yellow"];
 				bisabelle   [label = <BAVUGILIJE<BR/>Isabelle<BR/><I>Polydance</I>> fillcolor="yellow" penwidth=4 color="purple"];
 				cbaron 		[label = <BARON<BR/>Clément<BR/><I>Sono</I>> fillcolor="yellow"];
